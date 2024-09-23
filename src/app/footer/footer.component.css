@@ -1,0 +1,146 @@
+footer {
+  background-color: #333;
+  color: #ccc;
+  padding: 40px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h3,
+h4 {
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-description {
+  max-width: 300px;
+}
+
+.footer-description p {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 14px;
+  line-height: 2.3;
+}
+
+.footer-logos,
+.footer-social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.logo-container,
+.footer-social-icons a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.logo-container {
+  background-color: #a83b3b;
+}
+
+.logo-container img,
+.footer-social-icons a img {
+  width: 15px;
+  height: 15px;
+}
+
+.logo-container:hover {
+  background-color: #e45858;
+}
+
+.footer-social-icons a {
+  background-color: #555;
+}
+
+.footer-social-icons a:hover {
+  background-color: #777;
+}
+
+.footer-pages {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-page h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-page ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.footer-page ul li:hover {
+  color: #fff;
+}
+
+.footer-insta-imgs h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.insta-imgs {
+  display: flex;
+  gap: 15px;
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+
+.insta-imgs img {
+  width: 170px;
+  height: 200px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 12px;
+  color: #888;
+  border-top: 1px solid #555;
+  margin-top: 40px;
+}
+
+li {
+  list-style-type: none;
+  margin: 25px 0 5px 0;
+}
+.footer-page {
+  margin-right: 50px;
+}
+.img-title {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 40px;
+  
+}
+.img-title h2 {
+  font-size: 20px;
+  margin: 0 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
+}
